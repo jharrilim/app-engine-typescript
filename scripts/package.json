@@ -1,0 +1,19 @@
+{
+  "name": "scripts",
+  "version": "0.0.1",
+  "description": "examples of scripts you may use to lighten to upload to google cloud",
+  "bin": {
+    "build": "./build.js",
+    "deploy": "./deploy.js"
+  },
+  "scripts": {
+    "build": "node build",
+    "deploy": "node deploy"
+  },
+  "author": "Joseph Harrison-Lim",
+  "license": "UNLICENSE",
+  "dependencies": {
+    "shelljs": "^0.8.3",
+    "winston": "^3.1.0"
+  }
+}

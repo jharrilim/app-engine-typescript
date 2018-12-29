@@ -1,0 +1,20 @@
+{
+  "name": "app-engine-typescript",
+  "version": "0.0.1",
+  "description": "Google Cloud App Engine with Typescript & Node 10",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "gcp-build": "tsc -p .",
+    "deploy": "gcloud app deploy"
+  },
+  "author": "Joseph Harrison-Lim",
+  "license": "UNLICENSE",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "typescript": "^3.2.2"
+  }
+}
